@@ -1,0 +1,107 @@
+
+body {
+  background-color: #ffff7a;
+  font-family: "メイリオ", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.site-title {
+  color: #000000;  
+  font-size: 3.2em;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 0;
+  padding: 0.3em;
+  text-align: left;
+}
+
+.navbar {
+  height: 100px;  
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.menu {
+    font-size: 1.8em;
+    margin-bottom: 0.3em;
+}
+  			   
+
+
+.menu-contents {
+    list-style: none;        
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 3em;
+    height: 100%;
+}
+
+.menu-contents a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+    border-bottom: 2px solid #000;
+    padding-bottom: 1px;		 
+}    
+	      
+
+.menu-contents a:hover {
+    color: #007acc;
+    border-bottom: 2px solid #007acc
+}
+	     
+
+
+
+h1 {
+  color: #000000;
+  font-size: 2.5em;
+}
+
+
+p {
+  color: #000;
+  font-size: 2.2em;
+  text-align: left;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.about-contents {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 2.2em;
+    text-align: left;
+    margin-left: 1em;
+}
+
+.about-contents a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid #000;
+    padding-bottom: 1px;
+}
+
+.about-contents a:hover {
+    color: #007acc;
+    border-bottom: 2px solid #007acc
+}
+        
+	      
+
+
+ul {
+    font-size: 1.8em;  
+  list-style: none;
+  padding-left: 0;
+}
+
+
